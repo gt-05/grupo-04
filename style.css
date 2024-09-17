@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#site-header{
+    background-color: black;
+    color: white;
+}
+.menu-item{
+    display: inline-block;
+    position: relative;
+}
+.menu-link{
+    color: white;
+    display: inline-block;
+}
