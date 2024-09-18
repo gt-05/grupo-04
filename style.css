@@ -103,3 +103,20 @@ ul {
   /* border: 1px solid red; */
   display: flex;
 }
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 28px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 102px;
+  margin-bottom: 0px;
+}
+#footer_copyright {
+          width: 200px; 
+          margin: 0 auto; 
+          font-size: 14px; 
+          letter-spacing: 0.60px;
+}
