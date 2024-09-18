@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    justify-content: center;
+    
     
 }
 body{
@@ -22,10 +24,13 @@ a{
     color:black;
     display: inline-block;
     
+    
 }
 .menu-item{
     display: inline-block;
     position: relative;
+    
+    
     
 }
 .menu-link{
@@ -34,6 +39,7 @@ a{
     display: inline-block;
     background-color:white;
     font-weight: bolder;
+    
 }
 .menu-list, .navigation {
     background-color:white;
