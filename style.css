@@ -1,85 +1,105 @@
-*{
-    font-family: 'Source Sans Pro';
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Source Sans Pro";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #f4f4f4;
+body {
+  background-color: #f4f4f4;
 }
-ul{
-    list-style: none;
-    
+ul {
+  list-style: none;
 }
-.navigation{
-    color:black;
-    display: block;
-    background-color: white;
-    text-align: center;
+.navigation {
+  color: black;
+  display: block;
+  background-color: white;
+  text-align: center;
 }
-.menu-item{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    
+.menu-item {
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
-.menu-link{
-    color: black;
-    padding: 25px;
-    display: inline-block;
-    background-color:white;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: none;
-    
+.menu-link {
+  color: black;
+  padding: 25px;
+  display: inline-block;
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
 }
 
 .titulo {
-    text-align: center;
-    color: black;
-    padding-top: 55px;
+  text-align: center;
+  color: black;
+  padding-top: 55px;
 }
 
 .subtitulo {
-    text-align: center;
-    color: rgb(53, 51, 51);
+  text-align: center;
+  color: rgb(53, 51, 51);
 }
 
 .hero {
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*SESSÃO CARDS*/
 .sessao-cards {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin: 5% 0;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
 }
 .card {
-    width: 270px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-  }
- 
-  .icon {
-    margin-top: 0.1px;
-    width: 48px;
-    height: 48px;
-  }
+  width: 270px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
 
-  .texto-card {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-top: 0.1px;
-    color: #333;
-  }
+.icon {
+  margin-top: 0.1px;
+  width: 48px;
+  height: 48px;
+}
+
+.texto-card {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 0.1px;
+  color: #333;
+}
+
+.botao {
+  margin-top: 10px;
+  padding: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: rgb(63, 55, 55);
+  display: inline-block;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+
+.conteudo-botao {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+}
