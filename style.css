@@ -1,11 +1,11 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #d3d3d3;
+    background-color: #f4f4f4;
 }
 ul{
     list-style: none;
@@ -51,3 +51,35 @@ ul{
     align-items: center;
     flex-direction: column;
 }
+
+/*SESSÃO CARDS*/
+.sessao-cards {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0;
+}
+.card {
+    width: 270px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+ 
+  .icon {
+    margin-top: 0.1px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .texto-card {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 0.1px;
+    color: #333;
+  }
