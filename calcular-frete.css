@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+/*SECTION OPÇÕES DE FRETE*/
+.opcoes-frete {
+    width: 55%;
+    margin-left: 45%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px;
+    background-color: white;
+    border: 0.5px solid #b3aeae;
+}
+
+.texto {
+    padding: 5px 0;
+    align-content: center;
+}
+
+.categoria {
+    font-size: 16px;
+}
+
+.resultado {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.preco-desconto {
+    font-size: 20px;
+    color: gray;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/*FINAL SECTION OPÇÕES DE FRETE*/
