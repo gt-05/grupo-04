@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTATO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
 </head>
-<body>
+
+<body class="container">
+    <header id="site-header">
+        <nav class="navigation">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="index.html" class="menu-link">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="calcular-frete.html" class="menu-link">Calcular Frete</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contato.html" class="menu-link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <form class="box">
+            <label class="line" for="name">Nome *</label>
+            <input type="text" id="name" name="name" class="line" required>
+
+            <label class="line" for="email">Email *</label>
+            <input type="email" id="email" name="email" class="line" required>
+
+            <label class="line" for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" class="line" cols="35" rows="8" required></textarea>
+
+            <div>
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer_copyright">
+            &#169; DummyExpress
+        </div>
+    </footer>
 </body>
+
 </html>
