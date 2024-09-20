@@ -6,42 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULAR-FRETE</title>
     <link rel="stylesheet" href="calcular-frete.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!DOCTYPE html>
-<html lang="en">
+    <main class="grupo-duplo">
+    <div class="geral">
+        <form class="box">
+            <label class="line">CEP de origem *</label>
+            <input type="tel" id="CEP" value="00000-000" >
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+            <label class="line">CEP de destino *</label>
+            <input type="tel" id="CEP" value="00000-000" >
+    
+    <div class="input-group">
+           <div> <label class="line">Peso *</label>
+            <input type="number" id="peso" value="1.5" >
+        </div>
+        <div>
+            <label class="line">Quantidade *</label>
+            <input type="number" id="quantidade" value="2">
+        </div>
+        </div>
 
-<body>
-    <main>
-        <section class="hero">
-            <div class="origem">
-                <div class="titulo01">
-                    <h4>Origem</h4>
-                    <p>Rua XYZ, Centro, Fortaleza, Ceará, 00000-000</p>
-                </div>
-
-                <div class="titulo02">
-                    <h4>Destino</h4>
-                    <p>Rua XYZ, Centro, Fortaleza, Ceará, 00000-000</p>
-                </div>
+    <div>
+        <button class="button-frete">CALCULAR FRETE</button>
+    </div>
+    </form>
+    </div>
+    <section>
+    <!--SELECAO-FRETE DIEL-->
+    <section class="hero">
+        <div class="origem">
+            <div class="titulo01">
+                <h4>Origem</h4>
+                <p>Rua XYZ, Centro, Fortaleza, Ceará, 00000-000</p>
             </div>
-            <!-- <hr> -->
-        </section>
 
-    </main>
-
-
-</body>
-
-</html>
+            <div class="titulo02">
+                <h4>Destino</h4>
+                <p>Rua XYZ, Centro, Fortaleza, Ceará, 00000-000</p>
+            </div>
+        </div>
+        <hr class="linha"/>
+    </section>
+    
+    <!-- OPCOES DE FRETE REIKER -->
     <section class="opcoes-frete">
         <div class="card">
 
@@ -248,6 +257,10 @@
         </div> <!--card-->
 
     </section>
+</section>
+    </main>
+
+    
 </body>
 
 </html>
