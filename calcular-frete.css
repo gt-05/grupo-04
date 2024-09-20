@@ -1,83 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-    background-color: #f4f4f4;
-    font-family: sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/*SECTION OPÇÕES DE FRETE*/
-.opcoes-frete {
-    width: 55%;
-    margin-left: 45%;
+.navigation {
+  color: black;
+  background-color: white;
+  text-align: center;
 }
 
-.card {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin: 20px;
-    background-color: white;
-    border: 0.5px solid #b3aeae;
+.menu-item {
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
 
-.texto {
-    padding: 5px 0;
-    align-content: center;
+.menu-item {
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
 
-.categoria {
-    font-size: 16px;
+.menu-link {
+  color: black;
+  padding: 25px;
+  display: inline-block;
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
 }
 
-.resultado {
-    font-size: 18px;
-    font-weight: 800;
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+main {
+  background-color: transparent;
+  border: 0;
+  flex: 1;
 }
 
-.preco-desconto {
-    font-size: 20px;
-    color: gray;
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 28px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
-
-.preco {
-    font-size: 24px;
-    font-weight: 800;
-}
-
-/*FINAL SECTION OPÇÕES DE FRETE*/
-
-* {
-    font-family: sans-serif;
-}
-
-body {
-    color: dimgrey;
-}
-
-h4 {
-    color: black;
-    margin-bottom: 2px ;
-}
-
-.titulo01 {
-    text-align: left;
-    font-size: small;
-
-}
-
-.titulo02 {
-    text-align: left;
-    font-size: small;
-}
-
-.origem {
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-left: 800px;
-    border-bottom: 1px gray solid;
+#footer_copyright {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 14px;
+  letter-spacing: 0.6px;
 }
