@@ -1,137 +1,190 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-body {
-    background-color: #f4f4f4;
-    font-family: sans-serif;
+.navigation {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
 
 /*SECTION OPÇÕES DE FRETE*/
 .opcoes-frete {
-    width: 110%;
+  width: 110%;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin: 10px;
-    background-color: white;
-    border: 0.5px solid #b3aeae;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 10px;
+  background-color: white;
+  border: 0.5px solid #b3aeae;
 }
 
 .texto {
-    padding: 5px 0;
-    align-content: center;
-}
-
-.categoria {
-    font-size: 16px;
-}
-
-.resultado {
-    font-size: 18px;
-    font-weight: 800;
+  padding: 5px 0;
+  align-content: center;
 }
 
 .preco-desconto {
-    font-size: 20px;
-    color: gray;
+  font-size: 19px;
+}
+
+.preco,
+.resultado {
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+}
+
+.menu-item {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.menu-link {
+  color: black;
+  padding: 25px;
+  display: inline-block;
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  background-color: transparent;
+  border: 0;
+  flex: 1;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 28px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+#footer_copyright {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 14px;
+  letter-spacing: 0.6px;
 }
 
 .preco {
-    font-size: 24px;
-    font-weight: 800;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 /*SELECAO-FRETE*/
 
 body {
-    color: dimgrey;
+  color: dimgrey;
 }
 
 h4 {
-    color: black;
-    margin-bottom: 2px ;
+  color: black;
+  margin-bottom: 2px;
 }
 
 .titulo01 {
-    text-align: left;
-    font-size: small;
-
+  text-align: left;
+  font-size: small;
 }
 
 .titulo02 {
-    text-align: left;
-    font-size: small;
+  text-align: left;
+  font-size: small;
 }
 
 .origem {
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
-    margin-top: 180px;
-    margin-bottom: 40px;
-    margin-left: 2%;
-
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-top: 180px;
+  margin-bottom: 40px;
+  margin-left: 2%;
 }
-.linha{
-    margin: 0px;
-    width: 100%;
-    margin-left: 10px;
-    margin-top: 1%;
-    margin-bottom: 50px;
-
+.linha {
+  margin: 0px;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 1%;
+  margin-bottom: 50px;
 }
 
 /* formulario frete*/
-.box{
-    width: 500px;
-    padding: 30px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: white;
-    font-weight: bold;
-    row-gap: 40px;
-    margin-top: 140px;
-  }
-  .line{
-    display: block;
-  }
-  input{
-    width: 100%;
-    font-size: 16px;
-    padding: 8px;
-    box-sizing: border-box;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  .button-frete{
-        border-radius: 1px;
-        color: white;
-        width: 100%;
-        border: none;
-        padding: 10px;
-        background-color: black;
-        font-weight: bold;
-        
-  }
-  
-  .input-group{
-    display: flex;
-    justify-content: space-between;
-  }
-  .geral{
-    padding-top: 50px;
-  }
-  .grupo-duplo{
-    display: flex;
-    margin: auto;
-    box-sizing: border-box;
-    justify-content: space-around;
-  }
+.box {
+  width: 400px;
+  margin-right: 100px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: bold;
+  row-gap: 40px;
+  margin-top: 140px;
+}
+.line {
+  display: block;
+}
+input {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.button-frete {
+  border-radius: 1px;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+.geral {
+  padding-top: 50px;
+}
+.grupo-duplo {
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
