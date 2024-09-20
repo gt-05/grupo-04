@@ -48,3 +48,36 @@ body {
 }
 
 /*FINAL SECTION OPÇÕES DE FRETE*/
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    color: dimgrey;
+}
+
+h4 {
+    color: black;
+    margin-bottom: 2px ;
+}
+
+.titulo01 {
+    text-align: left;
+    font-size: small;
+
+}
+
+.titulo02 {
+    text-align: left;
+    font-size: small;
+}
+
+.origem {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 800px;
+    border-bottom: 1px gray solid;
+}
