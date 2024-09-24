@@ -4,6 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 425px){
+  *{
+    max-width: 425px;
+  }
+}
+
 body {
   background-color: #f4f4f4;
   display: flex;
@@ -23,10 +30,15 @@ body {
   text-align: center;
 }
 
+#site-header {
+  width: 100%;
+}
+
 /*SECTION OPÇÕES DE FRETE*/
 .opcoes-frete {
   width: 110%;
 }
+
 
 .card {
   display: flex;
@@ -36,10 +48,24 @@ body {
   background-color: white;
   border: 0.5px solid #b3aeae;
 }
+@media (max-width: 425px){
+  .card{
+    display: flex;
+    width: 400px;
+    gap: 20px;
+    font-size: x-small;
+  }
+}
 
 .texto {
   padding: 5px 0;
   align-content: center;
+}
+
+@media (max-width: 425px){
+  .opcoes-frete {
+    width: 380px;
+  }
 }
 
 .preco-desconto {
@@ -113,15 +139,32 @@ h4 {
   color: black;
   margin-bottom: 2px;
 }
+@media (max-width: 425px){
+  .h4 {
+    width: 380px;
+  }
+}
 
 .titulo01 {
   text-align: left;
-  font-size: small;
+  font-size: large;
+}
+@media (max-width: 425px){
+  .titulo01 {
+    width: 380px;
+    display: block;
+  }
 }
 
 .titulo02 {
   text-align: left;
-  font-size: small;
+  font-size: large;
+}
+@media (max-width: 425px){
+  .titulo02 {
+    width: 380px;
+    display: block;
+  }
 }
 
 .origem {
@@ -132,12 +175,30 @@ h4 {
   margin-bottom: 40px;
   margin-left: 2%;
 }
+
+@media (max-width: 425px){
+  .origem{
+    display: block;
+    font-size: x-large;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    max-width: 380px;
+    display: block;
+  }
+}
 .linha {
   margin: 0px;
   width: 100%;
   margin-left: 10px;
   margin-top: 1%;
   margin-bottom: 50px;
+}
+@media (max-width: 425px){
+  .linha{
+    display: block;
+    width: 400px;
+  }
 }
 
 /* formulario frete*/
@@ -152,7 +213,16 @@ h4 {
   font-weight: bold;
   row-gap: 40px;
   margin-top: 140px;
+  color: #000000;
 }
+
+@media (max-width: 425px){
+  .box{
+    display: block;
+    margin: 15px; 
+   }
+}
+
 .line {
   display: block;
 }
@@ -178,6 +248,7 @@ input {
 .input-group {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .geral {
   padding-top: 50px;
@@ -187,4 +258,10 @@ input {
   margin: auto;
   box-sizing: border-box;
   justify-content: space-around;
+}
+
+@media (max-width: 425px){
+  .grupo-duplo{
+    display: block;
+  }
 }
