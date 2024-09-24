@@ -4,8 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --cor-principal: #f4f4f4;
+  --cor-preto: #000;
+  --cor-branca: #fff;
+  --tamanho-fonte: 20px;
+}
+
 body {
-  background-color: #f4f4f4;
+  background-color: var(--cor-principal);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -14,10 +22,11 @@ ul {
   list-style: none;
 }
 .navigation {
-  color: black;
+  color: var(--cor-preto);
   display: block;
   background-color: white;
   text-align: center;
+  font-size: var(--tamanho-fonte);
 }
 .menu-item {
   display: inline-block;
@@ -25,7 +34,7 @@ ul {
   text-align: center;
 }
 .menu-link {
-  color: black;
+  color: var(--cor-preto);
   padding: 25px;
   display: inline-block;
   background-color: white;
@@ -42,7 +51,7 @@ ul {
 
 .subtitulo {
   text-align: center;
-  color: rgb(53, 51, 51);
+  color: #353333;
 }
 
 .hero {
@@ -63,7 +72,7 @@ ul {
 .card {
   width: 270px;
   height: 150px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--cor-branca);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +87,7 @@ ul {
 }
 
 .texto-card {
-  font-size: 20px;
+  font-size: var(--tamanho-fonte);
   font-family: sans-serif;
   margin-top: 0.1px;
   color: #333;
@@ -115,7 +124,7 @@ main {
 }
 footer {
   background-color: #000000;
-  color: #ffffff;
+  color: var(--cor-branca);
   text-align: center;
   padding: 28px;
   position: relative;
@@ -125,7 +134,7 @@ footer {
 #footer_copyright {
           width: 200px; 
           margin: 0 auto; 
-          font-size: 14px; 
+          font-size: var(--tamanho-fonte); 
           letter-spacing: 0.60px;
 }
 
