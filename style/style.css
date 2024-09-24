@@ -132,9 +132,43 @@ footer {
   width: 100%;
 }
 #footer_copyright {
-          width: 200px; 
-          margin: 0 auto; 
-          font-size: var(--tamanho-fonte); 
-          letter-spacing: 0.60px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: var(--tamanho-fonte);
+  letter-spacing: 0.6px;
 }
 
+/* Media da HOME */
+
+@media (max-width: 425px) {
+  .menu-link {
+    padding: 23px;
+    font-size: 18px;
+  }
+  .sessao-cards {
+    display: block;
+    margin: 18%;
+  }
+
+  h1 {
+    margin-left: 4%;
+  }
+
+  p {
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 1%;
+  }
+
+  .card {
+    margin-top: 10%;
+  }
+
+  .botao-site {
+    margin-bottom: 15%;
+  }
+
+  .botao {
+    padding: 4% 8%;
+  }
+}
