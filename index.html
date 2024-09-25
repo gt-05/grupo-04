@@ -1,68 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-[#f4f4f4] flex flex-col min-h-screen font-['Source_Sans_Pro']">
+  </head>
+  <body
+    class="bg-[#f4f4f4] flex flex-col min-h-screen font-['Source_Sans_Pro']"
+  >
     <header id="site-header w-full">
-        <nav class="bg-white text-black text-center block text-lg w-full">
-            <ul class="menu-list list-none">
-                <li class="menu-item inline-block relative text-center">
-                    <a href="index.html" class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline">Home</a>
-                </li>
-                <li class="menu-item inline-block relative text-center">
-                    <a href="calcular-frete.html" class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline">Calcular Frete</a>
-                </li>
-                <li class="menu-item inline-block relative text-center">
-                    <a href="contato.html" class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline">Contato</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="bg-white text-black text-center block text-lg w-full">
+        <ul class="menu-list list-none flex justify-center">
+          <li class="menu-item inline-block relative text-center">
+            <a
+              href="index.html"
+              class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline"
+              >Home</a
+            >
+          </li>
+          <li class="menu-item inline-block relative text-center">
+            <a
+              href="calcular-frete.html"
+              class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline"
+              >Calcular Frete</a
+            >
+          </li>
+          <li class="menu-item inline-block relative text-center">
+            <a
+              href="contato.html"
+              class="menu-link text-black p-[25px] inline-block font-extrabold text-center no-underline"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <!--MAIN-->
     <main class="bg-transparent border-0 flex-1">
-        <section class="flex justify-center items-center flex-col">
-            <div class="text-center pt-[55px]"></div>
-                <h1 class="font-bold text-3xl text-black">Bem-vindo à DummyExpress!</h1>
-            </div>
-            <br>
-            <div class="subtitulo">
-                <p class="text-center text-xl text-[#353333]">Seu parceiro confiável <br> para  calcular o frete do seu pacote com rapidez e precisão</p>
-            </div>
-        </section>
-
-        <section class="flex gap-12 justify-center align-center my-20">
-            <div class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md">
-                <img src="images/entrega.png" alt="" class="icon mt-[0.1px] w-12 h-12">
-                <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">Entrega Rápida</h3>
-            </div>
-            <div class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md">
-                <img src="images/calculadora.png" alt="" class="icon mt-[0.1px] w-12 h-12">
-                <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">Preços Transparentes</h3>
-            </div>
-            <div class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md">
-                <img src="images/suporte.png" alt="" class="icon mt-[0.1px] w-12 h-12">
-                <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">Suporte 24/7</h3>
-            </div>
-        </section>
-        
-        <section class="botao-site">
-            <div class="container-botao">
-                <button class="bg-stone-800 block py-[12px] px-[40px] m-auto mb-[60px] rounded-lg">
-                    <a class="text-white no-underline font-bold" href="./calcular-frete.html">Simular Cálculo de Frete</a>
-                </button>
-            </div>
-        </section>
-    </main>
-    
-    <footer class="bg-black text-white text-center p-[24px] relative bottom-0 w-full">
-        <div id="footer_copyright w-[200px] m-[0 auto] text-xl tracking-[0.6px]">
-            &#169; DummyExpress
+      <section class="flex justify-center items-center flex-col text-center">
+        <div class="text-center pt-[55px]">
+          <h1
+            class="font-bold text-3xl text-black sm:text-2xl md:text-3xl lg:text-4xl"
+          >
+            Bem-vindo à DummyExpress!
+          </h1>
         </div>
+        <br />
+        <div class="subtitulo">
+          <p
+            class="text-center text-xl text-[#353333] sm:text-lg md:text-xl lg:text-2xl"
+          >
+            Seu parceiro confiável <br />
+            para calcular o frete do seu pacote com rapidez e precisão
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="flex flex-col md:flex-row gap-12 justify-center items-center my-20"
+      >
+        <div
+          class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md"
+        >
+          <img
+            src="images/entrega.png"
+            alt=""
+            class="icon mt-[0.1px] w-12 h-12"
+          />
+          <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">
+            Entrega Rápida
+          </h3>
+        </div>
+        <div
+          class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md"
+        >
+          <img
+            src="images/calculadora.png"
+            alt=""
+            class="icon mt-[0.1px] w-12 h-12"
+          />
+          <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">
+            Preços Transparentes
+          </h3>
+        </div>
+        <div
+          class="flex items-center bg-white w-64 h-36 justify-center flex-col p-[20px] rounded-md"
+        >
+          <img
+            src="images/suporte.png"
+            alt=""
+            class="icon mt-[0.1px] w-12 h-12"
+          />
+          <h3 class="texto-card text-xl mt-[0.1px] text-[#333] font-bold">
+            Suporte 24/7
+          </h3>
+        </div>
+      </section>
+
+      <section class="botao-site">
+        <div class="container-botao">
+          <button
+            class="bg-stone-800 block py-[12px] px-[40px] m-auto mb-[60px] rounded-lg"
+          >
+            <a
+              class="text-white no-underline font-bold"
+              href="./calcular-frete.html"
+              >Simular Cálculo de Frete</a
+            >
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="bg-black text-white text-center p-[24px] relative bottom-0 w-full flex justify-center"
+    >
+      <div id="footer_copyright w-[200px] m-[0 auto] text-xl tracking-[0.6px]">
+        © DummyExpress
+      </div>
     </footer>
-</body>
+  </body>
 </html>
