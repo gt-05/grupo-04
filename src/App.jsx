@@ -1,5 +1,4 @@
-import ProductListing from "./components/ProductListing"
-import Section from "./components/Section";
+import HomePage from "./pages/HomePage";
 
 
 function App() {
@@ -7,9 +6,7 @@ function App() {
 
   return (
     <>
-      <Section title="Produtos em alta" link={{ "text": "Ver todos", "href": "https://etc" }}>
-        <ProductListing />
-      </Section>
+      <HomePage />
     </>
   );
 }
