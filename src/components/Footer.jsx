@@ -1,7 +1,7 @@
-export default function Header() {
+export default function Footer() {
     return (
         <>
-            <h2>header</h2>
+            <h2>Footer</h2>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import ProductListing from "./components/ProductListing"
 import Section from "./components/Section";
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
+
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-    <Home/>
+    <HomePage/>
     <Section tittle="Produtos em Alta" link = {{"text": "Ver todos", "href": "https://etc"}}></Section>
       <ProductListing />
     </>
