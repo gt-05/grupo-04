@@ -7,8 +7,9 @@ function App() {
 
   return (
     <>
-    <Section tittle="Produtos em Alta" link = {{"text": "Ver todos", "href": "https://etc"}}></Section>
-      <ProductListing />
+      <Section title="Produtos em alta" link={{ "text": "Ver todos", "href": "https://etc" }}>
+        <ProductListing />
+      </Section>
     </>
   );
 }
