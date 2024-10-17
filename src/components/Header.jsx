@@ -127,7 +127,7 @@ export default function Header() {
               <li>
                 <a
                   className="text-[16px] text-[#c92071] border-b-2 border-[#c92071] font-[700] whitespace-nowrap"
-                  href="#"
+                  href="/"
                 >
                   Home
                 </a>
@@ -135,7 +135,7 @@ export default function Header() {
               <li>
                 <a
                   className="text-[16px] text-[#474747] font-[400px] whitespace-nowrap"
-                  href="#"
+                  href="/products"
                 >
                   Produtos
                 </a>
@@ -143,7 +143,7 @@ export default function Header() {
               <li>
                 <a
                   className="text-[16px] text-[#474747] font-[400px] whitespace-nowrap"
-                  href="#"
+                  href="/category"
                 >
                   Categorias
                 </a>
@@ -151,7 +151,7 @@ export default function Header() {
               <li>
                 <a
                   className="text-[16px] text-[#474747] font-[400px] whitespace-nowrap"
-                  href="#"
+                  href="/orderings"
                 >
                   Meus pedidos
                 </a>
