@@ -2,6 +2,7 @@
 import blusa from "../assets/img/blusa.png"
 import blusa2 from "../assets/img/blusa2.png"
 import blusa3 from "../assets/img/blusa3.png"
+import frame from "../assets/img/frame.png"
 export default function CardSale() {
     return (
         <>
@@ -14,16 +15,19 @@ export default function CardSale() {
                     </div>
 
                     <div className="flex gap-3 justify-center">
-                        <div className="rounded border border-red-500 relative">
-                            <button className="font-[Open_Sans] font-bold text-[#474747] absolute border border-red-500 left-8 top-2">30% off</button>
+                        <div className="relative">
+                            <button className="font-[Open_Sans] font-bold text-[#C92071] absolute bg-[#F5F5F5] bottom-5 left-4 border-8 border-[#F5F5F5] rounded-lg">Comprar</button>
+                            <img className="absolute right-5 top-2" src={frame} alt="" />
                             <img className="rounded" src={blusa} alt="" />
                         </div>
                         <div className="relative">
-                            <button className="font-[Open_Sans] font-bold text-[#474747] absolute border border-red-500 left-8 top-2">30% off</button>
+                            <button className="font-[Open_Sans] font-bold text-[#C92071] absolute bg-[#F5F5F5] bottom-5 left-4 border-8 border-[#F5F5F5] rounded-lg">Comprar</button>
+                            <img className="absolute right-5 top-2" src={frame} alt="" />
                             <img className="rounded" src={blusa2} alt="" />
                         </div>
                         <div className="relative">
-                            <button className="font-[Open_Sans] font-bold text-[#474747] absolute border border-red-500 left-8 top-2">30% off</button>
+                            <button className="font-[Open_Sans] font-bold text-[#C92071] absolute bg-[#F5F5F5] bottom-5 left-4 border-8 border-[#F5F5F5] rounded-lg">Comprar</button>
+                            <img className="absolute right-5 top-2" src={frame} alt="" />
                             <img className="rounded" src={blusa3} alt="" />
                         </div>
                     </div>
@@ -35,7 +39,7 @@ export default function CardSale() {
                             Coleções em destaque
                         </h1>
                     </div>
-                    <div className="flex justify-center gap-7 bg-slate-100	">
+                    <div className="flex justify-center gap-7">
                         
                         <div>
                             <svg width="74" height="74" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
