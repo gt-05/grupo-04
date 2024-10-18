@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="bg-[#1a1a1a] py-4 text-white px-20">
+            <footer className="bg-[#1a1a1a] py-10 text-white px-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-9 py-4">
             <div id="footer_contacts" className="footer-section">
             <svg width="253" height="44" viewBox="0 0 253 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,8 +34,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-section">
-                <h3 className="text-lg font-semibold mb-2">Informação</h3>
-                <ul className="space-y-1">
+                <h3 className="text-lg font-semibold mb-2 pb-[10px]">Informação</h3>
+                <ul className="space-y-3 text-sm">
                     <li><a href="#" className="footer-link">Sobre Drip Store</a></li>
                     <li><a href="#" className="footer-link">Segurança</a></li>
                     <li><a href="#" className="footer-link">Wishlist</a></li>
@@ -45,8 +45,8 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="footer-section">
-                <h3 className="text-lg font-semibold mb-2">Categorias</h3>
-                <ul className="space-y-1">
+                <h3 className="text-lg font-semibold mb-2 pb-[10px]">Categorias</h3>
+                <ul className="space-y-3 text-sm">
                     <li><a href="#" className="footer-link">Camisetas</a></li>
                     <li><a href="#" className="footer-link">Calças</a></li>
                     <li><a href="#" className="footer-link">Bonés</a></li>
@@ -55,8 +55,8 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="footer-section">
-                <h3 className="text-lg font-semibold mb-2">Contato</h3>
-                <ul className="space-y-1">
+                <h3 className="text-lg font-semibold mb-2 pb-[10px]">Contato</h3>
+                <ul className="space-y-3 text-sm">
                     <li>
                         <a href="#" className="footer-link">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza-CE, 60150-161</a>
                     </li>
