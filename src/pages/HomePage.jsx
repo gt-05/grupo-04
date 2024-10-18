@@ -8,10 +8,10 @@ export default function HomePage() {
     return (
         <Layout>
             <Gallery />
+            <Card/>
             <Section title="Produtos em alta" link={{text:"Ver todos", href:"#"}}>
                 <ProductListing />
             </Section>
-            <Card />
         </Layout>
     );
 }
