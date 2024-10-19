@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-import cart from "../assets/img/Cart.svg";
 export default function Header() {
   return (
     <>
