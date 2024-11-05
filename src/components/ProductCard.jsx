@@ -1,7 +1,7 @@
 export default function ProductCard() {
     return (
         <>
-            <div className="w-[292px] h-[439px]">
+           <div className="w-[292px] h-[439px] mb-[32px]">
                 <div className="bg-[#626262] w-full h-[321px]">
                     <img src="../src/assets/img/product-thumb-5.jpeg" alt="Produto em Alta" />
                 </div>
