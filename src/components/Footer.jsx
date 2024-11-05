@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#1a1a1a] pt-10 py-4 text-white px-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-20 py-5 pb-10">
-          <div id="footer_contacts" className="footer-section">
+      <footer className="bg-[#1a1a1a] pt-[50px] pb-[22px] px-[20px] text-white sm:pt-[72px] sm:pb-[22px] sm:px-[100px]">
+        <div className="flex flex-col justify-around sm:flex-row">
+          <div className="mb-[40px]">
             <svg
               width="253"
               height="44"
@@ -20,12 +20,11 @@ export default function Footer() {
                 fill="white"
               />
             </svg>
-
-            <p className="my-[20px] text-sm">
+            <p className="my-[35px] text-sm w-[300px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </p>
-            <div id="footer_social_media" className="my-[30px] flex gap-8 mt-2">
+            <div id="footer_social_media" className="flex gap-8 mt-[40px]">
               <a href="#" className="footer-link" aria-label="Facebook">
                 <svg
                   width="11"
@@ -78,74 +77,80 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 pb-[10px]">Informação</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <a href="#" className="footer-link">
-                  Sobre Drip Store
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Segurança
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Wishlist
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Trabalhe conosco
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Meus Pedidos
-                </a>
-              </li>
-            </ul>
+          <div className="mt-[40px] flex gap-[32px] sm:mt-[0px] sm:gap-[102px]">
+            <div className="footer-section">
+              <h3 className="text-lg font-semibold mb-2 pb-[10px]">
+                Informação
+              </h3>
+              <ul className="space-y-3 text-sm">
+                <li>
+                  <a href="#" className="footer-link">
+                    Sobre Drip Store
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Segurança
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Wishlist
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Trabalhe conosco
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Meus Pedidos
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-section">
+              <h3 className="text-lg font-semibold mb-2 pb-[10px]">
+                Categorias
+              </h3>
+              <ul className="space-y-3 text-sm">
+                <li>
+                  <a href="#" className="footer-link">
+                    Camisetas
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Calças
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Bonés
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Headphones
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                    Tênis
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 pb-[10px]">Categorias</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <a href="#" className="footer-link">
-                  Camisetas
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Calças
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Bonés
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Headphones
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Tênis
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-section">
+          <div className="mt-[40px] footer-section ml-[0px] sm:mt-[0px] sm:ml-[168px]">
             <h3 className="text-lg font-semibold mb-2 pb-[10px]">Contato</h3>
-            <ul className="space-y-3 text-sm">
+            <ul className="space-y-3 text-sm w-[280px] gap-[40px] sm:w-[230px]">
               <li>
                 <a href="#" className="footer-link">
                   Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza-CE,
@@ -160,17 +165,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div
-          id="footer-copyright"
-          className="background-color: #1a1a1a; text-center text-white"
-        >
-          <div className="border-t border-white w-4/8 mx-auto py-4 pb-[1px]">
-            &#169; 2022 Digital College
-          </div>
+        <hr className="border-b border-gray-500 w-full mt-[16px]" style={{ borderWidth: '0.5px' }} />
+        <div className="mx-auto py-4 pb-[1px] text-[13px] text-center">
+          &#169; 2022 Digital College
         </div>
       </footer>
     </>
   );
 }
 
-//ABRAHÃO, COPIAR SEU CÓDIGO AQUI
