@@ -37,7 +37,7 @@ export default function Gallery() {
 
     return (
         <>
-            <div className="max-w-[1440px] max-h-[681px]">
+            <div className="max-w-full max-h-[681px]">
                 <div className="slider relative overflow-hidden">
 
                     <div className="slides flex ease-in-out duration-500" style={css}>
