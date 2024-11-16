@@ -21,8 +21,7 @@ export default function Footer() {
               />
             </svg>
             <p className="my-[35px] text-sm w-[300px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
             </p>
             <div id="footer_social_media" className="flex gap-8 mt-[40px]">
               <a href="#" className="footer-link" aria-label="Facebook">
@@ -152,7 +151,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-2 pb-[10px]">Contato</h3>
             <ul className="space-y-3 text-sm w-[280px] gap-[40px] sm:w-[230px]">
               <li>
-                <a href="#" className="footer-link">
+                <a href="https://www.google.com/maps?q=Av.+Santos+Dumont,+1510+-+1+andar+-+Aldeota,+Fortaleza-CE,+60150-161" target="_blank" className="footer-link">
                   Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza-CE,
                   60150-161
                 </a>
