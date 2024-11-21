@@ -4,7 +4,7 @@ export default function ProductCard() {
     return (
         <>
             <NavLink
-            to="/">
+            to="/productView">
            
                 <div className="w-[292px] h-[439px] mb-[32px]">
                     <div className="bg-[#626262] w-full h-[321px]">
