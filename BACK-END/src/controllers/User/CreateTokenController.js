@@ -5,8 +5,6 @@ const bcrypt = require('bcrypt');
 module.exports = async (request, response) => {
     let {email, password} = request.body;
 
-    console.log({email, password});
-
     if(!email || !password) {
         response.status(400);
         return response.json({
@@ -17,11 +15,13 @@ module.exports = async (request, response) => {
     let user = await UserModel.findOne({
         where: {email}
     });
-
-    let isValidUser = bcrypt.compareSync(password.toString(), user.password);
+    let isValidUser = false;
+    if(user) {
+        isValidUser = bcrypt.compareSync(password.toString(), user.password);
+    }
 
     if(!isValidUser) {
-        response.status(401);
+        response.status(400);
         return response.json({
             message: "Usuario não autorizado"
         });
