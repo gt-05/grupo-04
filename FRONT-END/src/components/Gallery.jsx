@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export default function Gallery() {
-
     const [current, setCurrent] = useState(0);
 
     let css = {

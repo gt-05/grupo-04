@@ -2,7 +2,7 @@ import Logo from "./Logo";
 export default function Header() {
   return (
     <>
-      <header className="w-full py-[40px] px-[90px] pl-[100px]">
+      <header className="w-full pt-[40px] pb-[1px] pl-[100px] bg-[white]">
         <div className="flex items-center gap-[60px]">
           <div className="logo">
             <Logo />
