@@ -9,6 +9,7 @@ import ProductListingPage from "./pages/ProductListingPage";
 import CategoryPage from "./pages/categoryPage";
 import OrderingPage from "./pages/OrderingPage";
 import ProductViewPage from "./pages/ProductViewPage";
+import CartPage from './pages/CartPage';
 
 export default createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ export default createBrowserRouter(
       <Route path="/category" element={<CategoryPage />} />
       <Route path="/orderings" element={<OrderingPage />} />
       <Route path="/productView" element={<ProductViewPage />} />
+      <Route path='/cart' element={<CartPage />} />
     </>
   )
 );

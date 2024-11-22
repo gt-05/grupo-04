@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; 
 import Logo from "./Logo";
 export default function Header() {
   return (
@@ -58,7 +59,8 @@ export default function Header() {
             </button>
           </div>
 
-          <div>
+          <div className="cart-icon">
+          <Link to="/cart" aria-label="Ir para Carrinho">
             <svg
               width="33"
               height="29"
@@ -104,6 +106,7 @@ export default function Header() {
                 fill="white"
               />
             </svg>
+            </Link>
           </div>
         </div>
 
